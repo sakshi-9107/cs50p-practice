@@ -1,5 +1,6 @@
 score = int(input("Score: "))
 
+# case 1: using and statement
 if score >= 90 and score <= 100:
     print("Grade: A")
 elif score >= 80 and score <= 90:
@@ -11,6 +12,7 @@ elif score >= 60 and score <= 70:
 else:
     print("Grade: F")
 
+# case 2: removing and 
 if 90 <= score <= 100:
     print("Grade: A")
 elif 80 <= score < 90:
@@ -22,6 +24,7 @@ elif 60 <= score < 70:
 else :
     print("Grade: F")
 
+# case 3: 
 if score >= 90:
     print("Grade A")
 elif score >= 80:
